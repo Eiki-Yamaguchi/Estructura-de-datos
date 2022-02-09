@@ -1,0 +1,17 @@
+// Area cubo.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+using namespace std;
+
+void main()
+{
+	float x,a;
+	cout<<"Ingrese un lado del cubo "; cin>>x;
+	a=pow(x,3);
+	cout<<"El area del cubo es: "<<a;
+	getch();
+
+}
